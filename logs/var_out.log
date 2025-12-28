@@ -1,0 +1,30 @@
+2025-12-23 14:19:03,313 - INFO - Initial Train Shape: (242, 13)
+2025-12-23 14:19:03,321 - INFO -      age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal
+132   42    1   1       120   295    0        1      162      0      0.0      2   0     2
+202   58    1   0       150   270    0        0      111      1      0.8      2   0     3
+196   46    1   2       150   231    0        1      147      0      3.6      1   0     2
+75    55    0   1       135   250    0        0      161      0      1.4      1   0     2
+176   60    1   0       117   230    1        1      160      1      1.4      2   2     3
+59    57    0   0       128   303    0        0      159      0      0.0      2   1     2
+93    54    0   1       132   288    1        0      159      1      0.0      2   1     2
+6     56    0   1       140   294    0        0      153      0      1.3      1   0     2
+177   64    1   2       140   335    0        1      158      0      0.0      2   0     2
+30    41    0   1       105   198    0        1      168      0      0.0      2   1     2
+2025-12-23 14:19:03,321 - INFO - Initial Test Shape : (61, 13)
+2025-12-23 14:19:03,326 - INFO -      age  sex  cp  trestbps  chol  fbs  restecg  thalach  exang  oldpeak  slope  ca  thal
+179   57    1   0       150   276    0        0      112      1      0.6      1   1     1
+228   59    1   3       170   288    0        0      159      0      0.2      1   0     3
+111   57    1   2       150   126    1        1      173      0      0.2      2   1     3
+246   56    0   0       134   409    0        0      150      1      1.9      1   2     3
+60    71    0   2       110   265    1        0      130      0      0.0      2   1     2
+9     57    1   2       150   168    0        1      174      0      1.6      2   0     2
+119   46    0   0       138   243    0        0      152      1      0.0      1   0     2
+223   56    0   0       200   288    1        0      133      1      4.0      0   2     3
+268   54    1   0       122   286    0        0      116      1      3.2      1   2     2
+33    54    1   2       125   273    0        0      152      0      0.5      0   1     2
+2025-12-23 14:19:06,900 - INFO - Outlier capping applied on chol
+2025-12-23 14:19:06,900 - INFO - Outlier capping applied on thalach
+2025-12-23 14:19:06,900 - INFO - Outlier capping applied on trestbps
+2025-12-23 14:19:06,900 - INFO - Outlier capping applied on oldpeak
+2025-12-23 14:19:06,900 - INFO - Log transformation applied on chol
+2025-12-23 14:19:06,900 - INFO - Log transformation applied on oldpeak

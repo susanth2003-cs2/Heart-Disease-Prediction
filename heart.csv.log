@@ -1,0 +1,38 @@
+2025-12-18 22:17:13,532 - INFO - Data loaded succesfully
+2025-12-18 22:17:13,532 - INFO - Total Rows in the data : 303
+2025-12-18 22:17:13,532 - INFO - Total columns in the data : 14
+2025-12-18 22:17:13,534 - INFO - Checking Null Values : age         0
+sex         0
+cp          0
+trestbps    0
+chol        0
+fbs         0
+restecg     0
+thalach     0
+exang       0
+oldpeak     0
+slope       0
+ca          0
+thal        0
+target      0
+dtype: int64
+2025-12-18 22:17:13,536 - INFO - Index(['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach',
+       'exang', 'oldpeak', 'slope', 'ca', 'thal'],
+      dtype='object')
+2025-12-18 22:17:13,536 - INFO - Index(['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach',
+       'exang', 'oldpeak', 'slope', 'ca', 'thal'],
+      dtype='object')
+2025-12-18 22:17:13,537 - INFO - 209    0
+134    1
+247    0
+144    1
+98     1
+Name: target, dtype: int64
+2025-12-18 22:17:13,537 - INFO - 204    0
+92     1
+179    0
+63     1
+236    0
+Name: target, dtype: int64
+2025-12-18 22:17:13,537 - INFO - Training data size : (242, 13)
+2025-12-18 22:17:13,537 - INFO - Testing data size : (61, 13)

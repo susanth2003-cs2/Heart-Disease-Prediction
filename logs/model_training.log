@@ -1,0 +1,29 @@
+2025-12-23 14:19:10,157 - INFO - =========KNeighborsClassifier===========
+2025-12-23 14:19:10,163 - INFO - KNN Test Accuracy : 0.8688524590163934
+2025-12-23 14:19:10,163 - INFO - =========GaussianNB===========
+2025-12-23 14:19:10,163 - INFO - Naive Bayes Test Accuracy : 0.8524590163934426
+2025-12-23 14:19:10,163 - INFO - =========LogisticRegression===========
+2025-12-23 14:19:10,163 - INFO - LogisticRegression Test Accuracy : 0.8524590163934426
+2025-12-23 14:19:10,177 - INFO - =========DecisionTreeClassifier===========
+2025-12-23 14:19:10,179 - INFO - DecisionTreeClassifier Test Accuracy : 0.7704918032786885
+2025-12-23 14:19:10,179 - INFO - =========RandomForestClassifier===========
+2025-12-23 14:19:10,189 - INFO - RandomForestClassifier Test Accuracy : 0.7213114754098361
+2025-12-23 14:19:10,189 - INFO - =========AdabostClassifier===========
+2025-12-23 14:19:10,212 - INFO - AdaBoostClassifier Test Accuracy : 0.8524590163934426
+2025-12-23 14:19:10,212 - INFO - =========GradientBoostingClassifier===========
+2025-12-23 14:19:10,212 - INFO - GradientBoostingClassifier Test Accuracy : 0.8524590163934426
+2025-12-23 14:19:10,212 - INFO - =========XGBClassifier===========
+2025-12-23 14:19:12,171 - INFO - XGBClassifier Test Accuracy : 0.8360655737704918
+2025-12-23 14:19:20,600 - INFO - KNN ROC-AUC Score : 0.8992456896551724
+2025-12-23 14:19:20,600 - INFO - Naive Bayes ROC-AUC Score : 0.9224137931034483
+2025-12-23 14:19:20,600 - INFO - Logistic Regression ROC-AUC Score : 0.927801724137931
+2025-12-23 14:19:20,600 - INFO - Decision Tree ROC-AUC Score : 0.7764008620689655
+2025-12-23 14:19:20,600 - INFO - Random Forest ROC-AUC Score : 0.859375
+2025-12-23 14:19:20,600 - INFO - AdaBoost ROC-AUC Score : 0.927801724137931
+2025-12-23 14:19:20,600 - INFO - Gradient Boosting ROC-AUC Score : 0.9148706896551725
+2025-12-23 14:19:20,600 - INFO - XGBoost ROC-AUC Score : 0.896551724137931
+2025-12-23 14:19:20,600 - INFO - ===================================
+2025-12-23 14:19:20,600 - INFO - BEST MODEL : Logistic Regression
+2025-12-23 14:19:20,600 - INFO - BEST ROC-AUC : 0.927801724137931
+2025-12-23 14:19:20,600 - INFO - ===================================
+2025-12-23 14:19:20,608 - INFO - Logistic Regression model saved successfully as Heart_Disease.pkl
